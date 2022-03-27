@@ -1,0 +1,128 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  z-index: 0;
+}
+
+.bg-nav {
+  background-color: rgbA(0, 0, 0, 0.5);
+}
+
+.navbar {
+  z-index: 2;
+}
+
+.nav-img {
+  min-height: 60px;
+  max-height: 6vw;
+}
+
+.nav-link {
+  
+}
+
+.nav-link:hover {
+  
+}
+
+.header-img {
+  object-fit: fill;
+  background-size: cover;
+  background-position-x: 75%;
+  min-height: calc(400px + 15vh);
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.title-txt {
+  text-align: start;
+  font-size: calc(50px + 5vw);
+  color: white;
+  text-shadow: 2px 2px 10px rgbA(0, 0, 0, 0.5);
+}
+
+.main-header-txt {
+  background-color: #EF3737;
+  color: #FFFFFF;
+  max-width: calc(200px + 10vw);
+}
+
+
+.page-title {
+  min-width: 300px;
+  max-width: calc(300px + 15vw);
+}
+
+.page-subtitle {
+  max-width: calc(100px + 5vw);
+  position: relative;
+  top: 1em;
+  left: -0.5em;
+  z-index: 1;
+}
+
+
+.title-container {
+
+}
+
+.card-main:hover {
+  transform: translateY(-10px);
+  transition: transform 250ms;
+}
+
+.card-img {
+  object-fit: cover !important;
+  height: 100%;
+  width: 100%;
+}
+
+.text-lighter {
+  font-weight: 300;
+}
+
+.text-bold {
+  font-size: 25px !important;
+}
+
+.hide-link-style {
+  text-decoration: none;
+  color: unset;
+}
+
+a.hide-link-style:hover {
+  color: unset;
+}
+
+.bg-grey {
+  background-color: #2C2B2B;  
+}
+
+.bg-gray {
+  background-color: #2C2B2B;  
+}
+
+.bg-red {
+  background-color: #700000;
+}
+
+.search-bar {
+  width: calc(300px + 25vw);
+}
+
+.info-title {
+  border-color: #6b3d3d !important;
+}
+
+.footer-site {
+  background-color: #000000;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-text {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: calc(8px + 0.8vh);
+}
